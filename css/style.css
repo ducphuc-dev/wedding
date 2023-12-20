@@ -251,7 +251,7 @@ input, textarea {
 	background-size: cover;
 }
 .bg-wedding {
-	background: url(../images/wedding-back.jpg) no-repeat center center;
+	background: url(../images/my_images/cover_wedding.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -265,21 +265,21 @@ input, textarea {
 	background-size: cover;
 }
 .bg-rsvp {
-	background: url(../images/rsvp-back.jpg) no-repeat center center;
+	background: url(../images/my_images/bg_contact.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
 .bg-couple {
-	background: url(../images/couple-back.jpg) no-repeat center center;
+	background: url(../images/my_images/cover_couple.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
 .bg-home {
-	background: url(../images/home-back.jpg) no-repeat center center;
+	background: url(../images/my_images/cover.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
