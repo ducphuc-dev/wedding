@@ -81,10 +81,11 @@ $(document).on('ready', function () {
    /*Timer for wedding page*/
    if ($.find('#example').length) {
        $('#example').countdown({
-           date: '01/21/2024 11:00:00', //Enter Target date & time - MM/DD/YYYY hh:mm:ss
-           offset: +5.5,
-           day: 'Day',
-           days: 'Days'
+           date: '01/21/2024 04:00:00', //Enter Target date & time - MM/DD/YYYY hh:mm:ss
+           timezone: "+7"
+        //    offset: +5.5,
+        //    day: 'Day',
+        //    days: 'Days'
        }, function () {
        });
 	}

@@ -23,7 +23,7 @@
   <link type="text/css" rel="stylesheet" href="css/animate.css">
   <link type="text/css" rel="stylesheet" href="css/hover.css">
   <script src="js/modernizr.custom.js"></script>
-  <title>Lovebird</title>
+  <title>Phuc & Hang's Wedding</title>
   <style>
     .has-error .form-control:focus~label,
     .has-error .form-control.dirty~label {
@@ -37,7 +37,7 @@
   <div class="resonsive-tab">
     <div class="header">
       <div class="container">
-        <div class="logo-responsive pull-left"> <a href="index.html"><img class="img-responsive" src="images/logo.png"
+        <div class="logo-responsive pull-left"> <a href="index.html"><img class="img-responsive" src="images/my_images/logo.jpg"
               alt="logo"></a></div>
         <div class="hamburger pull-right"> <img src="images/1466014460_menu-alt.png" alt="Navicon"> </div>
       </div>
@@ -45,8 +45,12 @@
     </div>
   </div>
   <div id="dl-menu" class="section1 navbar navbar-default navbar-fixed-top">
-    <div class="vertical-menu">
-      <div class="logo-s2"> <a href="index.html" data-menu="index"> <img src="images/logo.png" alt="logo"> </a> </div>
+    <div class="vertical-menu d-flex align-items-center">
+      <div class="logo-s2"> <a href="index.html" data-menu="index"> <img src="images/my_images/logo.png" alt="logo"> </a> </div>
+      <div>
+        <iframe src="music/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+        
+      </div>
       <div class="ver-menu">
         <ul class="dl-menu nav navbar-nav menubar-s2 horizontal_iconmenu" style="position: relative;">
           <li data-animation="1" class="hvr-overline-from-center hover_active"> <a href="#0" data-menu="index"> <svg
@@ -626,6 +630,12 @@
                       </div>
                     </div>
                   </div>
+                  <div class="clearfix"></div>
+                  <div class="audio">
+                    <audio id="audioID" autoplay loop controls>
+                      <source src="music/music3.mp3" type="audio/mp3" >
+                    </audio>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1181,6 +1191,9 @@
 
     </div>
   </div>
+
+  
+
   <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
   <script type="text/javascript" src="js/function.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -1197,6 +1210,14 @@
   <script type="text/javascript" src="js/wow.js"></script>
   <script type="text/javascript" src="js/jquery.validate.min.js"></script>
   <script type="text/javascript" src="js/formValidation.js"></script>
+  <!-- <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const myaudio = document.getElementById("audioID");
+      console.log("myaudio: ", myaudio)
+      myaudio.play()
+    });
+    
+  </script> -->
 </body>
 
 </html>
