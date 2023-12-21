@@ -1125,9 +1125,9 @@
                         </div>
                         <div id="Error" class="errorelert" style="display:none;"> <strong>Error occurred while sending
                             email.</strong> Try again later. </div>
-                        <form class="form floating-label text-left form-validate" name="frm" id="frm">
+                        <form class="form floating-label text-left form-validate" name="frm" id="contact">
                           <div class="form-group">
-                            <input type="text" class="form-control" id="Name" name="Name" required
+                            <input type="text" class="form-control" id="name" name="Name" required
                               data-rule-minlength="2" />
                             <label for="Name">Tên của bạn</label>
                           </div>
@@ -1145,10 +1145,10 @@
                               <div class="form-group">
                                 <select id="attendiesDetails" name="attendiesDetails"
                                   class="form-control select2-list dirty" required>
-                                  <option value="">---</option>
-                                  <option value='0'>Tất nhiên rồi</option>
-                                  <option value='1'>Xin lỗi, tôi bận rồi</option>
-                                  <option value='2'>Tôi chưa chắc chắn</option>
+                                  <option value="---">---</option>
+                                  <option value='Tất nhiên rồi'>Tất nhiên rồi</option>
+                                  <option value='Xin lỗi, tôi bận rồi'>Xin lỗi, tôi bận rồi</option>
+                                  <option value='Tôi chưa chắc chắn'>Tôi chưa chắc chắn</option>
                                 </select>
                                 <label for="attendiesDetails">Bạn sẽ đến dự tiệc cùng chúng tôi chứ?</label>
                               </div>
@@ -1210,14 +1210,7 @@
   <script type="text/javascript" src="js/wow.js"></script>
   <script type="text/javascript" src="js/jquery.validate.min.js"></script>
   <script type="text/javascript" src="js/formValidation.js"></script>
-  <!-- <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const myaudio = document.getElementById("audioID");
-      console.log("myaudio: ", myaudio)
-      myaudio.play()
-    });
-    
-  </script> -->
+  <script type="module" src="js/form.js"></script>
 </body>
 
 </html>
