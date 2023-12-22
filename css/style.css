@@ -677,6 +677,7 @@ _:-ms-fullscreen,
 
 .the-couple-title p span {
 	text-transform: uppercase;
+	color: darkgoldenrod;
 }
 
 .cat-title {
@@ -714,6 +715,8 @@ _:-ms-fullscreen,
 	color: #000;
 	font-weight: 400;
 	margin: 0px 0px 40px;
+	font-family: 'Great Vibes', cursive;
+    font-size: 25px;
 }
 
 .about-the-people p {
