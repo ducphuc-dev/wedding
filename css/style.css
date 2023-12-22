@@ -402,6 +402,14 @@ _:-ms-fullscreen,
 	background-size: cover;
 }
 
+.bg-gift {
+	background: url(../images/my_images/cover_gift.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 .bg-couple {
 	background: url(../images/my_images/cover_couple.jpg) no-repeat center center;
 	-webkit-background-size: cover;
@@ -417,6 +425,26 @@ _:-ms-fullscreen,
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+.bank-img {
+	max-width: 180px!important;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.message-list {
+	height: 465px;
+	overflow: scroll;
+}
+
+.message-box {
+	/* border-left: 6px solid red; */
+    padding-left: 20px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.my-3{margin-top:1rem!important;margin-bottom:1rem!important}
 
 .home-overflow {
 	overflow: hidden;
