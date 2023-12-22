@@ -648,11 +648,12 @@ _:-ms-fullscreen,
 }
 
 .groom-color {
-	background-color: #03c0cc;
+	/* background-color: #03c0cc; */
+	background-image: url('../images/my_images/bg_contact.jpg');
 }
 
 .bride-color {
-	background-color: #f0394d;
+	background-image: url('../images/my_images/bg_contact.jpg');
 }
 
 .the-couple {
