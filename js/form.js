@@ -26,6 +26,14 @@ async function submitForm(event) {
     const guestDetail = document.getElementById('guestDetails').value;
     const message = document.getElementById('message').value;
 
+    if(!name) {
+        return alert("Vui lòng nhập tên của bạn")
+    }
+
+    if(!message) {
+        return alert("Vui lòng nhập lời nhắn")
+    }
+
     // Save data to Firebase
     await saveToFirebase(name, attend, guestDetail, message);
 }
