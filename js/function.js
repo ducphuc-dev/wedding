@@ -11,6 +11,7 @@ $(document).on('ready', function () {
         $('.page-top').removeClass('display_none');
         $('.wow').attr('style', 'visibility: hidden; animation-name: none; -webkit-transform:translateY(20px); -moz-transform:translateY(20px); -ms-transform:translateY(20px); -o-transform:translateY(20px); transform:translateY(20px); -webkit-animation-duration: 2s; -moz-animation-duration: 2s; -ms-animation-duration: 2s; -o-animation-duration: 2s; animation-duration: 2s;');
 
+        console.log("Running thisssssss")
         $('.horizontal_iconmenu li').removeClass('hover_active');
         $(this).addClass('hover_active');
         setTimeout(function () {
